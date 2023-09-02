@@ -1,0 +1,38 @@
+{
+    "name": "@apathoid/eslint-config-react",
+    "version": "1.0.0",
+    "description": "React ESLint configuration file.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/apathoid/eslint-config-react.git"
+    },
+    "type": "module",
+    "exports": {
+        ".": {
+            "import": {
+                "types": "./index.d.ts",
+                "default": "./index.js"
+            }
+        }
+    },
+    "files": [
+        "index.js",
+        "index.d.ts"
+    ],
+    "keywords": [
+        "eslint",
+        "eslintconfig",
+        "linter"
+    ],
+    "author": "apathoid",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/apathoid/eslint-config-react/issues"
+    },
+    "homepage": "https://github.com/apathoid/eslint-config-react#readme",
+    "peerDependencies": {
+        "eslint": ">=8",
+        "eslint-plugin-react": ">=7",
+        "eslint-plugin-react-hooks": ">=4"
+    }
+}
